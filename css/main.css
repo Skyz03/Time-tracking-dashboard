@@ -1,4 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap");
 body {
   font-family: "Rubik", sans-serif;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
 }/*# sourceMappingURL=main.css.map */
