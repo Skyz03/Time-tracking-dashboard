@@ -1,6 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap");
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Remove default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: "Rubik", sans-serif;
+  background-color: color(Very-dark-blue);
 }
 
 main {
@@ -8,6 +27,7 @@ main {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  margin: 5rem;
 }
 
 .attribution {
