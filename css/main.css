@@ -3,6 +3,13 @@ body {
   font-family: "Rubik", sans-serif;
 }
 
+main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
