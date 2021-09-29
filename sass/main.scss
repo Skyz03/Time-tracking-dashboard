@@ -1,9 +1,5 @@
 // Base
-@use "base/functions";
-@use "base/variables";
-@use "base/resets";
-@use "base/typography";
+@import "base/functions", "base/resets", "base/typography", "base/variables";
 
 // Layout
-@use "layout/main-layout";
-@use "layout/media";
+@import "layout/main-layout", "layout/media";
