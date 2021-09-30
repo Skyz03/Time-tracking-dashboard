@@ -20,15 +20,17 @@ html:focus-within {
 body {
   font-family: "Rubik", sans-serif;
   background-color: #0f1424;
-  color: red;
+  color: #fff;
 }
 
 main {
+  margin: 0 auto;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  margin: 5rem;
+  width: 85vw;
+  height: 100vh;
 }
 
 .attribution {
