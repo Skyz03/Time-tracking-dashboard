@@ -1,0 +1,20 @@
+.time_interval {
+  padding: 2rem 2rem 1.5rem 2rem;
+  border-radius: 15px;
+  position: relative;
+  top: -1rem;
+}
+
+.interval:nth-child(1) {
+  margin-top: 0;
+}
+
+.interval {
+  margin-top: 1rem;
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.interval:hover {
+  opacity: 1;
+}
