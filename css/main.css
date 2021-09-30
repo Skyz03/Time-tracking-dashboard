@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap");
 /* Box sizing rules */
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap");
 *,
 *::before,
 *::after {
@@ -19,7 +19,7 @@ html:focus-within {
 
 body {
   font-family: "Rubik", sans-serif;
-  background-color: color(Very-dark-blue);
+  background-color: #0f1424;
   color: red;
 }
 
