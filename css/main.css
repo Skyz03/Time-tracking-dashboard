@@ -58,6 +58,7 @@ body {
   border-radius: 15px;
   position: relative;
   top: -1rem;
+  background-color: #1c1f4a;
 }
 
 .interval:nth-child(1) {
@@ -78,6 +79,12 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
+}
+
+.card {
+  background-color: #1c1f4a;
+  padding: 2rem;
+  border-radius: 15px;
 }
 
 main {
