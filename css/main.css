@@ -86,6 +86,17 @@ body {
   padding: 2rem;
   border-radius: 15px;
 }
+.card h1 {
+  font-weight: 300;
+}
+
+.card_title {
+  margin-bottom: 1.5rem;
+}
+
+.card_sub_title {
+  margin-top: 1rem;
+}
 
 main {
   margin: 0 auto;

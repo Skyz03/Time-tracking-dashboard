@@ -8,4 +8,16 @@
   background-color: color(dark-blue);
   padding: 2rem;
   border-radius: 15px;
+
+  h1 {
+    font-weight: 300;
+  }
+}
+
+.card_title {
+  margin-bottom: 1.5rem;
+}
+
+.card_sub_title {
+  margin-top: 1rem;
 }
