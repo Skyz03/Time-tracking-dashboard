@@ -74,6 +74,12 @@ body {
   opacity: 1;
 }
 
+.right_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
 main {
   margin: 0 auto;
   display: flex;
