@@ -94,6 +94,17 @@ body {
   margin-bottom: 1.5rem;
 }
 
+.card_title::after {
+  content: "";
+  background-image: url("../images/icon-ellipsis.svg");
+  background-position: right top;
+  background-repeat: no-repeat;
+  z-index: 1;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
 .card_sub_title {
   margin-top: 1rem;
 }
@@ -106,10 +117,6 @@ main {
   justify-content: center;
   width: 85vw;
   height: 100vh;
-}
-
-.time_interval {
-  background-color: #1c1f4a;
 }
 
 .attribution {
