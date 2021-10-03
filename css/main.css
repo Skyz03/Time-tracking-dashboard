@@ -171,4 +171,43 @@ main {
 
 .attribution a {
   color: #3e52a3;
+}
+
+@media (max-width: 780px) {
+  main {
+    flex-direction: column;
+    height: auto;
+    width: auto;
+  }
+
+  .left_container {
+    width: 90vw;
+    margin-top: 2rem;
+    margin-right: 0;
+  }
+
+  .profile_container {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .profile_img {
+    margin-bottom: 0;
+    margin-right: 2rem;
+  }
+
+  .time_interval {
+    padding: 2rem;
+  }
+
+  .right_container {
+    grid-template-columns: 1fr;
+    width: 90vw;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: row;
+  }
 }/*# sourceMappingURL=main.css.map */
