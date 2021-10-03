@@ -10,28 +10,47 @@
   border-radius: 15px;
 }
 
+.image {
+  background-repeat: no-repeat;
+  background-position: top right;
+  height: 100%;
+  width: 100%;
+}
+
 .work_container {
+  @extend .image;
   background-color: color(light-red1);
+  background-image: url(../images/icon-work.svg);
 }
 
 .play_container {
+  @extend .image;
   background-color: color(soft-blue);
+  background-image: url(../images/icon-play.svg);
 }
 
 .study_container {
+  @extend .image;
   background-color: color(light-red2);
+  background-image: url(../images/icon-study.svg);
 }
 
 .exercise_container {
+  @extend .image;
   background-color: color(lime-green);
+  background-image: url(../images/icon-exercise.svg);
 }
 
 .social_container {
+  @extend .image;
   background-color: color(primary-violet);
+  background-image: url(../images/icon-social.svg);
 }
 
 .self_care_container {
+  @extend .image;
   background-color: color(soft-orange);
+  background-image: url(../images/icon-self-care.svg);
 }
 
 .card {

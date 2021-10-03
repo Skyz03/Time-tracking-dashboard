@@ -87,28 +87,41 @@ body {
   border-radius: 15px;
 }
 
+.image, .self_care_container, .social_container, .exercise_container, .study_container, .play_container, .work_container {
+  background-repeat: no-repeat;
+  background-position: top right;
+  height: 100%;
+  width: 100%;
+}
+
 .work_container {
   background-color: #ff8c66;
+  background-image: url(../images/icon-work.svg);
 }
 
 .play_container {
   background-color: #56c2e6;
+  background-image: url(../images/icon-play.svg);
 }
 
 .study_container {
   background-color: #ff5c7c;
+  background-image: url(../images/icon-study.svg);
 }
 
 .exercise_container {
   background-color: #4acf81;
+  background-image: url(../images/icon-exercise.svg);
 }
 
 .social_container {
   background-color: #7536d3;
+  background-image: url(../images/icon-social.svg);
 }
 
 .self_care_container {
   background-color: #f1c65b;
+  background-image: url(../images/icon-self-care.svg);
 }
 
 .card {
