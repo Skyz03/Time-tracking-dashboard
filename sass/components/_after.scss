@@ -6,9 +6,9 @@
   z-index: 1;
   height: 100vh;
   width: 100vw;
+  left: 8.5rem;
+  top: 2.5rem;
 }
 
-.title_work {
-  @extend .card_title::after;
-  left: 2.5rem;
-}
+// .title_work::after {
+// }

@@ -85,12 +85,13 @@ body {
   background-color: #1c1f4a;
   padding: 2rem;
   border-radius: 15px;
+  position: relative;
 }
 .card h1 {
   font-weight: 300;
 }
 
-.card_title, .title_work {
+.card_title {
   margin-bottom: 1.5rem;
 }
 
@@ -98,7 +99,7 @@ body {
   margin-top: 1rem;
 }
 
-.card_title::after, .title_work::after {
+.card_title::after {
   content: "";
   background-image: url("../images/icon-ellipsis.svg");
   background-repeat: no-repeat;
@@ -106,10 +107,8 @@ body {
   z-index: 1;
   height: 100vh;
   width: 100vw;
-}
-
-.title_work {
-  left: 2.5rem;
+  left: 8.5rem;
+  top: 2.5rem;
 }
 
 main {
