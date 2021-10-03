@@ -21,12 +21,13 @@
 .card_title::after {
   content: "";
   background-image: url("../images/icon-ellipsis.svg");
-  background-position: right top;
   background-repeat: no-repeat;
+  position: absolute;
   z-index: 1;
   height: 100vh;
   width: 100vw;
-  position: relative;
+  left: 9.5rem;
+  top: 2.5rem;
 }
 
 .card_sub_title {
