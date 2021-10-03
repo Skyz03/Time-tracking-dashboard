@@ -4,6 +4,36 @@
   gap: 20px;
 }
 
+.color_container {
+  position: relative;
+  padding-top: 2.5rem;
+  border-radius: 15px;
+}
+
+.work_container {
+  background-color: color(light-red1);
+}
+
+.play_container {
+  background-color: color(soft-blue);
+}
+
+.study_container {
+  background-color: color(light-red2);
+}
+
+.exercise_container {
+  background-color: color(lime-green);
+}
+
+.social_container {
+  background-color: color(primary-violet);
+}
+
+.self_care_container {
+  background-color: color(soft-orange);
+}
+
 .card {
   background-color: color(dark-blue);
   padding: 2rem;
