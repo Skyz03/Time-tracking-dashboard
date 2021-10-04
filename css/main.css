@@ -162,6 +162,7 @@ main {
   justify-content: center;
   width: 85vw;
   height: 100vh;
+  overflow: hidden;
 }
 
 .attribution {
