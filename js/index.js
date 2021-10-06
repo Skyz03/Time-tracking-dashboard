@@ -1,3 +1,3 @@
-var mydata = JSON.parse(data);
-
-console.log(mydata);
+fetch("data.json")
+  .then(response => response.json())
+  .then(json => console.log(json));

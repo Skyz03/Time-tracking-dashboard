@@ -1,4 +1,5 @@
-data = '[{  
+[
+  {
     "title": "Work",
     "timeframes": {
       "daily": {
@@ -100,4 +101,4 @@ data = '[{
       }
     }
   }
-]';
+]
