@@ -8,135 +8,119 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
-  <title>Frontend Mentor | Time tracking dashboard</title>
-
   <link rel="stylesheet" href="./assets/css/main.css">
+
+  <title> Time tracking dashboard</title>
+
+
 </head>
 
 <body>
-  <main class="board">
+  <main class="main">
 
+    <div class="left_container">
 
-    <!-- MAIN RIGHT BOARD -->
+      <div class="profile_container">
 
-    <section class="board__primary">
+        <img class="profile_img" src="./assets/images/image-jeremy.png" alt="profile-image">
 
-      <div class="card">
-
-        <div class="card__user">
-
-          <div class="card__image">
-            <img src="./assets/images/image-jeremy.png" alt="user_img">
-          </div>
-
-          <div class="card__text">
-            <p class="card__para"> Report for</p>
-            <h1 class="card__title"> Jeremy Robson</h1>
-          </div>
+        <div class="profile_names">
+          <p class="profile_subtitle"> Report for</p>
+          <h1 class="profile_title"> Jeremy Robson </h1>
         </div>
 
-        <div class="card__timeline">
-          <ul>
-            <li><a href="#" class="period-control" data-control="daily"> Daily</a></li>
-            <li><a href="#" class="period-control" data-control="Weekly"></a> Weekly </a></li>
-            <li><a href="#" class="period-control" data-control="Monthly">Monthly</a></li>
-          </ul>
+      </div>
+
+      <div class="time_interval">
+        <p class="interval"> Daily</p>
+        <p class="interval"> Weekly</p>
+        <p class="interval"> Monthly</p>
+      </div>
+
+    </div>
+
+
+    <div class="right_container">
+
+      <div class="color_container work_container">
+        <div class="card">
+          <div class="card_title_container">
+            <p class="card_title"> Work</p>
+
+            <h1> 32hrs</h1>
+          </div>
+          <!-- weekly -->
+          <p class="card_sub_title"> Last Week - 36hrs</p>
+          <!-- weekly -->
         </div>
       </div>
-    </section>
 
-    <section class="board__secondary">
-      Work
-      5hrs
-      <!-- daily -->
-      Previous - 7hrs
-      <!-- daily -->
-      32hrs
-      <!-- weekly -->
-      Previous - 36hrs
-      <!-- weekly -->
-      103hrs
-      <!-- monthly -->
-      Previous - 128hrs
-      <!-- monthly -->
+      <div class="color_container play_container">
+        <div class="card">
+          <div class="card_title_container">
+            <p class="card_title"> Play</p>
 
-      Play
-      1hr
-      <!-- daily -->
-      Previous - 2hrs
-      <!-- daily -->
-      10hrs
-      <!-- weekly -->
-      Previous - 8hrs
-      <!-- weekly -->
-      23hrs
-      <!-- monthly -->
-      Previous - 29hrs
-      <!-- monthly -->
+            <h1> 10hrs</h1>
+          </div>
+          <!-- weekly -->
+          <p class="card_sub_title"> Last Week - 8hrs</p>
+        </div>
+      </div>
 
-      Study
-      0hrs
-      <!-- daily -->
-      Previous - 1hr
-      <!-- daily -->
-      4hrs
-      <!-- weekly -->
-      Previous - 7hrs
-      <!-- weekly -->
-      13hrs
-      <!-- monthly -->
-      Previous - 19hrs
-      <!-- monthly -->
+      <div class="color_container study_container">
+        <div class="card">
+          <div class="card_title_container">
+            <p class="card_title"> Study</p>
+            <h1> 4hrs</h1>
+          </div>
+          <!-- weekly -->
+          <p class="card_sub_title"> Last Week - 7hrs</p>
+        </div>
+      </div>
 
-      Exercise
-      1hr
-      <!-- daily -->
-      Previous - 1hr
-      <!-- daily -->
-      4hrs
-      <!-- weekly -->
-      Previous - 5hrs
-      <!-- weekly -->
-      11hrs
-      <!-- monthly -->
-      Previous - 18hrs
-      <!-- monthly -->
+      <div class="color_container exercise_container">
+        <div class="card">
+          <div class="card_title_container">
+            <p class="card_title"> Exercise</p>
+            <h1> 4hrs</h1>
+          </div>
+          <!-- weekly -->
+          <p class="card_sub_title"> Last Week - 5hrs</p>
+        </div>
+      </div>
 
-      Social
-      1hr
-      <!-- daily -->
-      Previous - 3hrs
-      <!-- daily -->
-      5hrs
-      <!-- weekly -->
-      Previous - 10hrs
-      <!-- weekly -->
-      21hrs
-      <!-- monthly -->
-      Previous - 23hrs
-      <!-- monthly -->
+      <div class="color_container social_container">
+        <div class="card">
+          <div class="card_title_container">
+            <p class="card_title"> Social</p>
+            <h1> 5hrs</h1>
+          </div>
+          <!-- weekly -->
+          <p class="card_sub_title"> Last Week - 10hrs</p>
+        </div>
+      </div>
 
-      Self Care
-      0hrs
-      <!-- daily -->
-      Previous - 1hr
-      <!-- daily -->
-      2hrs
-      <!-- weekly -->
-      Previous - 2hrs
-      <!-- weekly -->
-      7hrs
-      <!-- monthly -->
-      Previous - 11hrs
-      <!-- monthly -->
-    </section>
+      <div class="color_container self_care_container">
+        <div class="card">
+          <div class="card_title_container">
+            <p class="card_title"> Self Care</p>
+            <h1> 2hrs</h1>
+          </div>
+          <!-- weekly -->
+          <p class="card_sub_title"> Last Week - 2hrs</p>
+        </div>
+      </div>
 
+    </div>
   </main>
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Skyz</a>.
   </div>
 </body>
+
+<script type="text/javascript" src="data.json"></script>
+<script type="text/javascript" src="js/index.js"></script>
 
 </html>
